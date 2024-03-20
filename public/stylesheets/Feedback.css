@@ -1,0 +1,23 @@
+body
+{
+    /* background-image: url(images/f2.jpg); */
+    background-repeat: no-repeat;
+    background-size:1000px;
+}
+body
+{
+    background-color: lightblue;
+}
+h1
+{
+color: red;text-decoration: underline;font-weight:bold;font-size:40px;
+}
+ p
+ {
+    color:black;font-weight:bold;font-style:italic;font-size:40px;
+ }
+
+submit
+{
+    color:black;font-weight: bold;font-style:italic;font-size:60px;
+}

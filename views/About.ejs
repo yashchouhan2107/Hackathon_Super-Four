@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/About.css">
+    <title>About us</title>
+    <script language ="javascript" type="text/javascript">
+        function myfunction()
+        {
+            alert("Message Send !");
+            window.location.reload();
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>About us</h2>
+            <br>
+            <div class="logo" >
+                <p style="font-weight: bold">Get the future you Deserve!!</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="Home">Home</a></li>
+                <li><a href="About">About Us</a></li>
+                <li><a href="UserIndex">Information</a></li>
+                <li><a href="Feedback">Feedback</a></li>
+                <li><a href="Logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="about">
+        <h1>CarrerMitra</h1>
+        <div class="about-info">
+            <div class="about-img" align="center" ><img src="images/C1.jpg" width="30%" height="30%">
+            <div>
+                <p>At Carrer Mitra, we understand challenges faced by students and
+                     professionals in navigating the ever-evolving world of carrers. We believe that every 
+                     individual deserves personalised guidence and support to make informed choice about their
+                    education and carrer paths . With our team of experienced carrer counsellors, we offer 
+                    comprehensive and tailored services to help individuals to discover their passions,unlock
+                their potential, and achieve their goals.<br><br>
+            CarrerMitra.com is an online Carrer & Education portal desinged to assist users in choosing 
+            the right career path , CarrerMitra provides information on colleges and information on
+        related to Carrer and Education. </p>
+            </div>
+        </div>
+    </section>
+    <section class="team">
+        <h1>Contact Details</h1>
+        <div Class="team-cards">
+            <div class="card">
+                <div class="card-img"><img src="images/A1.jpg"></div>
+                <div class="card-info">
+                <br><br><br>
+                <p class="card-role">"Nobody go back to start a new beginning ,but anyone can start today  and make a new ending."</p>
+                <p class="card-email">"The Best Way to Predict the Furture is to Create it."</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="images/A2.jpg"></div>
+            <div class="card-info">
+                <br><br><br>
+
+              <p class="card-role">"Education is the passport to the future,for tomorrow brlongs to those who prepare for it today."</p>
+                <p class="card-email">"One day , all your hard work will pay off."</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="footer-column">
+                <div class="title-content">
+                    <h1>Contact</h1>
+                    <div class="contact-row"><span class="title-field">+918827496041</span></div><br>
+                    <div class="contact-row"><span class="title-field">Superfour@gmail.com</span></div>
+                </div>
+            </div>
+            <br><br>
+            <div class="footer-column contact-form-container">
+                <div class="title-content">
+                    <form method="POST" action="/About" >
+                        <div class="contact-row"><input type="text" class="form-field" placeholder="Name"</div>
+                        <br>
+                        <div class="contact-row">
+                            <textarea rows="5" class="form-field" placeholder="Message" name="msg"></textarea>
+                        </div>
+                        <button type="submit" class="registerbtn" onclick="myfunction()">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+</html>

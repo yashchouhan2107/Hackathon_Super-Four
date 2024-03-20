@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylesheets/Register.css"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <div class="container" align="center">
+        <h1>REGISTER</h1>
+        <header>
+            <nav>
+                <ul class="nav-links">
+                    <li>
+                        <a href="Register"><b style="color:black; font-size:larger"><u>Register</u></b></a>
+                    </li>
+                    <li>
+                        <a href="Login"><b style="color:black; font-size:larger"><u>Login</u></b></a>
+                    </li>
+                </ul>
+                 
+                <div class="logo" align="center">
+                    <p><i>please fill this form to create an account..</i></p>
+                </div>
+
+            </nav>
+        </header>
+        <form method="post" action="/Register">
+            <table width="100%">
+                <tr>
+                    <td>
+                        <img src="images/r1.jpg" width="80%" height="100%">
+                        <td>
+                            <label for="full name"><b>Full name</b></label>
+                            <br>
+                            <input type="text" placeholder="Enter Full Name" name="name" id="first name" required>
+                            <br>
+                            <label for="state"><b>State</b></label>
+                            <br>
+                            <input type="text" placeholder="Enter state" name="state" id="state" required>
+                            <br>
+
+                            <label for="email"><b>Email</b></label>
+                            <br>
+                            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+                            <br>
+
+                            <label for="psw"><b>Password</b></label>
+                            <br>
+                            <input type="password" placeholder="Enter password" name="psw" required>
+                            <br>
+                            <label for="gender"><b>Gender</b></label>
+                                <input type="radio" name="rd" value="male">male
+                                <input type="radio" name="rd" value="female">female
+                                <input type="radio" name="rd" id="other">other
+                            <td>
+                                <label for="dob"><b>Date of birth</b></label>
+                                <br>
+                                <input type="text" placeholder="MM/DD/YYYY" name="dob" required>
+                                <br>
+                                <label for="city"><b>City</b></label>
+                                <br>
+                                <input type="text" placeholder="Enter City" name="city" id="city" required>
+                                <br>
+                                
+                                <label for="phone number"><b>Phone Number</b></label>
+                                <br>
+                                <input type="text" placeholder="Enter Phone Number" name="phone" id="phone number" required>
+                                <br>
+                                <label for="pin"><b>PIN CODE</b></label>
+                                <br>
+                                <input type="number" placeholder="pincode" name="pin" id="psw-repeat" required>
+                               <br><br><br> <input type="submit" value="REGISTER NOW" style="width:250px; height:25px;">
+                            </td>
+                        </td>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
